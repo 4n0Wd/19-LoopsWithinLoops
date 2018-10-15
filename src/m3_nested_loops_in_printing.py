@@ -301,8 +301,8 @@ def triangle_all_numbers_in_each_row(r):
     Precondition:  r is a non-negative integer.
     """
     for k in range(1, r + 1):
-        for i in range(k):
-            print(i + 1, end='')
+        for i in range(1, k + 1):
+            print(i, end='')
         print()
     # ------------------------------------------------------------------
     # DONE: 7. Implement and test this function.
